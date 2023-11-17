@@ -1,6 +1,6 @@
 import mongoose, { HydratedDocument, Model, model } from "mongoose";
 
-interface IUser{
+export interface IUser{
     first_name: string,
     last_name: string,
     email: string,
