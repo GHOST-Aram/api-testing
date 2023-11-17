@@ -1,14 +1,18 @@
 import { Request, Response } from "express"
+import { HydratedUserDoc } from "./User.model"
+import { UsersDAL } from "./users.dal"
 
 export class UsersController{
-    // private dataAccessLayer: any
+    private dataAccessLayer: UsersDAL
 
-    // constructor(dataAccessLayer: any){
-    //     this.dataAccessLayer = dataAccessLayer
-    // }
+    constructor(dataAccessLayer: UsersDAL){
+        this.dataAccessLayer = dataAccessLayer
+    }
 
-    public getUsers = (req: Request, res: Response) =>{
-        const users:[] = []
+    public getUsers = async(req: Request, res: Response) =>{
+
+        
+        const users:HydratedUserDoc[] = await this.dataAccessLayer.getAllUsers()
         res.status(200).json({ users })
     }
 

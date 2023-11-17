@@ -1,7 +1,12 @@
 import { app } from "./config"
-import { router } from "./routes"
+import { usersRouter } from "./routes"
+import { UsersDAL } from "./users.dal";
+import { UsersController } from "./controller";
 
-app.use('/users', router)
+const userDal = new UsersDAL()
+const usersController = new UsersController(userDal)
+
+app.use('/users', usersRouter(usersController))
 
 
 export { app }

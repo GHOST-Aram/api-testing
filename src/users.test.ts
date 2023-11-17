@@ -1,9 +1,16 @@
 import { app } from "./config";
 import request from 'supertest'
-import { describe, test, expect } from "@jest/globals";
-import { router } from "./routes";
+import { describe, test, expect, jest } from "@jest/globals";
+import { usersRouter } from "./routes";
+import { UsersController } from "./controller";
+import { UsersDAL } from "./mocks/users.dal";
 
-app.use('/users',router)
+
+
+const userDal = new UsersDAL()//Mock
+const usersController = new UsersController(userDal)
+
+app.use('/users',usersRouter(usersController))
 
 describe("GET Users", () =>{
     test('Responds with Json', (done) =>{
