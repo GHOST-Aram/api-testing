@@ -1,6 +1,6 @@
 import { jest } from "@jest/globals"
-import { HydratedUserDoc, IUser } from "../model/User.model"
-import {User} from '../model/User.model'
+import { HydratedUserDoc, IUser } from "../../model/User.model"
+import { User } from '../../model/User.model'
 
 export class UsersDAL{
     public createNewUser = jest.fn(async(data: IUser) => {

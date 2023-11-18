@@ -1,4 +1,3 @@
-
 {
   "extends": "@tsconfig/node20/tsconfig.json",
   "$schema": "https://json.schemastore.org/tsconfig",
@@ -18,5 +17,5 @@
     "outDir": "./build",
     "rootDir": "./src"
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "src/apps/users/endpoint/urls.ts"]
 }
