@@ -45,6 +45,7 @@ Here is the order in which we are going to learn how to test API routes the easy
 6. Decouple the data-access logic from the web layer.
 7. Introduce dependencies on the controller and the router.
 8. Mock your data-access layer.
+9. Replace the data access layer with the mock in the test file.
 
 
 ## 1. Configure a test environment.
