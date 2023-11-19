@@ -1,5 +1,5 @@
 # Testing Express API Routes the Easy Way: Beginners' guide.
-Unit testing is one of the best practices in software development. In the development of web APIs, there is no question about the importance of unit testing. In web APIs, unit testing is critical in ensuring that all your routes respond with the information you expect from them. 
+Unit testing is one of the best practices in software development. In the development of web APIs, there is no question about the importance of unit testing. Unit testing is critical in ensuring that all the routes in a web API respond with the information expected from them. 
 
 Testing routes in a web API can be a nightmare if you don't structure your components well. One area that causes the most pain for beginners in testing APIs is the routes that involve database access. Database operations are inevitable. Often you are going to build CRUD applications as a beginner. In this article, we will learn how to test API routes with the least difficulty possible. 
 
