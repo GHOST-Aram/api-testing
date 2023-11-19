@@ -38,7 +38,7 @@ At the end of this article, you will have learned how to do the following:
 Here is the order in which we are going to learn how to test API routes the easy way:
 
 1. Configure a test environment.
-2. Create a simple Node API.
+2. Create a simple Express API.
 3. Modularize your application for easy testing.
 4. Write your first route test.
 5. Write a test involving database operation.
@@ -56,9 +56,9 @@ After cloning the repository, run the following command to install node modules.
 ```
 npm install
 ```
-That's it. We have a development and test environment ready for us to work on. Let's move to step 2 and create a simple Node API using and Express.
+That's it. We have a development and test environment ready for us to work on. Let's move to step 2 and create a simple Express API.
 
-## 2. Create a simple Node API.
+## 2. Create a simple Express API.
 Because you already know how to create an API with Node and Express, we will go through this step quickly so we can start working on why you are here.
 
 Run the following command on your terminal to install Express and it's types.
