@@ -525,7 +525,7 @@ export class APIDAL{
 ```
 
 ### b). Encapsulate the controller.
-We will create a class called ' APIController` to encapsulate the controller functions. The `APIController`  constructor accepts an object of the data-access layer class as a dependency.
+We will create a class called `APIController` to encapsulate the controller functions. The `APIController`  constructor accepts an object of the data-access layer class as a dependency.
 Below is the code snippet.
 
 ```
@@ -636,7 +636,7 @@ Here are the steps we will follow.
  - Create a file called `data-access.ts`.
  - Create the `APIDAL` class on the file and copy-paste the code snippet below.
 
- ```
+```
  import { IItem, Item } from "../item.model";
 
 export class APIDAL{
@@ -654,7 +654,7 @@ export class APIDAL{
         })
     })
 }
- ```
+```
 
 In the above code snippet, we have replaced the original function implementation with a mock.
 
