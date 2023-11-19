@@ -4,7 +4,7 @@ Unit testing is one of the best practices in software development. In the develo
 Testing routes in a web API can be a nightmare if you don't structure your components well. One area that causes the most pain for beginners in testing APIs is the routes that involve database access. Database operations are inevitable. Often you are going to build CRUD applications as a beginner. In this article, we will learn how to test API routes with the least difficulty possible. 
 
 ## What will this article cover?
-The main focus of this article is only to show you how to test routes. Therefore, other related tests such as database tests are out of the scope of this article.
+The main focus of this article is to show you how to test routes. Therefore, other related tests such as database tests are out of the scope of this article.
 
 ## What does the article expect you to already know?
 This article is not an introductory tutorial to unit testing or API development. Therefore, we assume that you have basic knowledge of the following topics:
