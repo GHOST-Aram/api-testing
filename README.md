@@ -112,7 +112,9 @@ export const index = (req: Request, res: Response) =>{
 ```
 ### b). Modularize routes
 i). Create a `routes.ts` file in the `src` directory. 
+
 ii). Create a `router` from `express.Router`.
+
 iii). Import the controller function, and set up a route as shown below.
 
 ```
