@@ -49,7 +49,7 @@ Here is the order in which we are going to learn how to test API routes the easy
 
 
 ## 1. Configure a test environment.
-In the spirit of "Do not repeat yourself," we will use a preexisting test environment. We will [clone a configured test environment](https://github.com/GHOST-Aram/ts-jest-env) from a GitHub repository. This repository contains configurations for Jest and Typescript. In case interested in learning how to configure a test environment for Jest and Typescript, [visit this article](https://dev.to/ghostaram/configuring-jest-for-typescript-unit-tests-4iag).
+In the spirit of "Do not repeat yourself," we will use a preexisting test environment. We will [clone a configured test environment](https://github.com/GHOST-Aram/ts-jest-env) from a GitHub repository. This repository contains configurations for Jest and Typescript. In case you are interested in learning how to configure a test environment for Jest and Typescript, [visit this article](https://dev.to/ghostaram/configuring-jest-for-typescript-unit-tests-4iag).
 
 After cloning the repository, run the following command to install node modules.
 
