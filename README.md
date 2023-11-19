@@ -92,7 +92,9 @@ To enable efficient testing of the routes of our application, we need to modular
 We will decouple our API into routes, controllers, and the main file(`app.ts`). We follow the steps below:
 
 a). Modularize route handlers.
+
 b). Modularize routes.
+
 c). Refactor the main file
 
 ### a). Modularize router handlers
